@@ -1,3 +1,27 @@
-package.json
-node_moduls/
-.eslintcashe
+# Node.js dependencies
+node_modules/
+
+# TypeScript build output
+/dist/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Log files
+*.log
+logs/
+
+# Ignore compiled JavaScript files if you have any
+*.js
+
+# Ignore any other build output or temporary files
+/build/
+/temp/
