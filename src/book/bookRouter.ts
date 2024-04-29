@@ -6,7 +6,7 @@ import multer from "multer";
 const bookRouter = express.Router();
 
 const upload = multer({
-  dest: path.resolve(__dirname, "../../public/date/uploads"),
+  dest: path.resolve(__dirname, "../../public/data/uploads"),
   limits: { fieldSize: 3e7 },
 });
 
